@@ -1,3 +1,6 @@
+# Author: James Webb
+# Date: 2026-11
+
 """NLP package.
 
 This file can be left empty; it just has to exist.

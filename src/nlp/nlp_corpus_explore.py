@@ -1,3 +1,6 @@
+# Author: James Webb
+# Date: 2026-11
+
 """nlp_corpus_explore.py - Module 3 Script.
 
 Purpose

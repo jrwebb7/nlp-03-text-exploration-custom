@@ -14,7 +14,7 @@
 
 
 [project]
-name = "nlp"               # CUSTOM: Package distribution name (use lowercase and dashes).
+name = "nlp-03-text-exploration-custom"               # CUSTOM: Package distribution name (use lowercase and dashes).
 readme = "README.md"
 requires-python = ">=3.14"
 version = "0.1.0"
@@ -74,7 +74,7 @@ default-groups = "all"
 exclude-newer = "7 days"
 
 # WHY: Some releases must be usable immediately.
-exclude-newer-package = { datafun-toolkit = false, nlp = false }
+exclude-newer-package = { datafun-toolkit = false, nlp-03-text-exploration-custom = false }
 
 
 # ============================================================
