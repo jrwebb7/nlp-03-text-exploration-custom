@@ -1,8 +1,8 @@
-# nlp-03-text-exploration
+# nlp-03-text-exploration-custom
 
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](pyproject.toml)
-[![CI](https://github.com/denisecase/nlp-03-text-exploration/actions/workflows/ci-python-zensical.yml/badge.svg)](https://github.com/denisecase/nlp-03-text-exploration/actions/workflows/ci-python-zensical.yml)
-[![Documentation](https://img.shields.io/badge/docs-site-blue?logo=github)](https://denisecase.github.io/nlp-03-text-exploration/)
+[![CI](https://github.com/jrwebb7/nlp-03-text-exploration-custom/actions/workflows/ci-python-zensical.yml/badge.svg)](https://github.com/jrwebb7/nlp-03-text-exploration-custom/actions/workflows/ci-python-zensical.yml)
+[![Documentation](https://img.shields.io/badge/docs-site-blue?logo=github)](https://jrwebb7.github.io/nlp-03-text-exploration-custom/)
 
 [![uv managed](https://img.shields.io/badge/uv-managed-DE5FE9)](https://docs.astral.sh/uv/)
 [![ty type checked](https://img.shields.io/badge/ty-type_checked-2F80ED)](https://docs.astral.sh/ty/)
@@ -13,25 +13,15 @@
 
 ## Project Overview
 
-Author: Denise Case
+Author: James Webb
 
-Date: 2026 October
+Date: 2026-11
 
-Third project in the Web Mining and Applied NLP course.
-
-This project introduces exploratory text analysis.
-
-The goal is to examine a collection of text documents,
-identify patterns in vocabulary,
-compare categories,
-and explore relationships between words.
-
-These techniques provide foundations for understanding
-more advanced NLP methods, including
-language representations and embeddings.
-
-The project is configured in
-[pyproject.toml](pyproject.toml).
+I plan to explore a fictional fellowship orientation corpus with three
+categories: logistics, systems access, and training. I will compare
+frequent words and bigrams across categories and test how context
+windows of two and three tokens change the words found near terms like
+"badge" and "training."
 
 ## Data
 
@@ -125,7 +115,7 @@ uv run python -m pytest
 
 ## Project Documentation
 
-The [hosted documentation site](https://denisecase.github.io/nlp-03-text-exploration/)
+The [hosted documentation site](https://jrwebb7.github.io/nlp-03-text-exploration-custom/)
 is published using Zensical and GitHub Pages.
 
 The documentation site is used to present the project report,
@@ -139,8 +129,8 @@ to check project files and publish the docs.
 
 GitHub Actions include:
 
-- [CI: Python and Documentation Checks](https://github.com/denisecase/nlp-03-text-exploration/actions/workflows/ci-python-zensical.yml)
-- [CD: Documentation Deployment](https://github.com/denisecase/nlp-03-text-exploration/actions/workflows/deploy-zensical.yml)
+- [CI: Python and Documentation Checks](https://github.com/jrwebb7/nlp-03-text-exploration-custom/actions/workflows/ci-python-zensical.yml)
+- [CD: Documentation Deployment](https://github.com/jrwebb7/nlp-03-text-exploration-custom/actions/workflows/deploy-zensical.yml)
 
 ## Developer Reference
 
@@ -225,7 +215,7 @@ testing, documentation, and code quality.
 
 ## Links
 
-- [Hosted Documentation](https://denisecase.github.io/nlp-03-text-exploration/)
+- [Hosted Documentation](https://jrwebb7.github.io/nlp-03-text-exploration-custom/)
 - [Professional Python Workflow Guide](https://denisecase.github.io/pro-analytics-02/)
 - [Citation](CITATION.cff)
 - [License](LICENSE)
